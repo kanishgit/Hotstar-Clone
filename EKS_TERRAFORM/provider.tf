@@ -8,6 +8,6 @@ terraform {
 }
 
 # Configure the AWS Provider
-provider "aws" {
+resource "aws_instance" "aws" {
   region = "ap-east-1"
 }
